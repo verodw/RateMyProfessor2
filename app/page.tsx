@@ -488,11 +488,15 @@ export default function Home() {
 
   const sendMessage = async () => {
   if (!message.trim()) return;
-
   const finalMessage = message.trim();
   setMessage("");
   setIsLoading(true);
-  const updatedMessages = [...messages, { role: "user", content: finalMessage }];
+
+  const newMessage: Message = {
+    role: "user",
+    content: finalMessage,
+  };
+  const updatedMessages: Message[] = [...messages, newMessage];
   setMessages(updatedMessages);
 
   try {
@@ -500,18 +504,20 @@ export default function Home() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        messages: updatedMessages,
+        messages: updatedMessages, 
         filters: {},
       }),
     });
 
     if (!response.ok) throw new Error(`${response.status}`);
-    setMessages((prev) => [...prev, { role: "assistant", content: "" }]);
+    setMessages((prev) => [
+      ...prev,
+      { role: "assistant", content: "" },
+    ]);
     setIsLoading(false);
 
     const reader = response.body!.getReader();
     const decoder = new TextDecoder();
-
     const process = async ({ done, value }: ReadableStreamReadResult<Uint8Array>): Promise<void> => {
       if (done) return;
       const text = decoder.decode(value || new Uint8Array(), { stream: true });
@@ -525,11 +531,15 @@ export default function Home() {
       return reader.read().then(process);
     };
     await reader.read().then(process);
+
   } catch {
     setIsLoading(false);
     setMessages((prev) => [
       ...prev,
-      { role: "assistant", content: "Sorry, I couldn't connect to the server." },
+      {
+        role: "assistant",
+        content: "Sorry, I couldn't connect to the server.",
+      },
     ]);
   }
 };
