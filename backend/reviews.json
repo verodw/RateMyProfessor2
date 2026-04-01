@@ -1,0 +1,364 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. Alice Johnson",
+      "review": "An amazing professor who truly cares about her students. Her lectures are clear and well-organized. She always makes time for extra help.",
+      "subject": "Mathematics",
+      "stars": 5,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Prof. Michael Smith",
+      "review": "Engaging and insightful. He makes complex topics easy to understand through real-world examples.",
+      "subject": "Physics",
+      "stars": 4,
+      "teaching_style": "Discussion-oriented",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. Emily Davis",
+      "review": "A bit challenging, but worth the effort. She pushes students to think critically and question assumptions.",
+      "subject": "Philosophy",
+      "stars": 4,
+      "teaching_style": "Discussion-oriented",
+      "difficulty_level": "Difficult",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Prof. John Williams",
+      "review": "Not very helpful during office hours, and the lectures can be dry. Hard to stay engaged in class.",
+      "subject": "Chemistry",
+      "stars": 2,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Difficult",
+      "availability": "Limited"
+    },
+    {
+      "professor": "Dr. Laura Brown",
+      "review": "Fantastic lecturer with a deep understanding of the subject. Highly recommend! One of the best professors I've had.",
+      "subject": "Biology",
+      "stars": 5,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Prof. James Wilson",
+      "review": "A decent professor, but sometimes the material is hard to follow. Slides are not always clear.",
+      "subject": "History",
+      "stars": 3,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Easy",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Dr. Sarah Miller",
+      "review": "Really enjoyed her class. She's very passionate about the subject and creates a safe space for discussion.",
+      "subject": "Literature",
+      "stars": 4,
+      "teaching_style": "Discussion-oriented",
+      "difficulty_level": "Easy",
+      "availability": "Available"
+    },
+    {
+      "professor": "Prof. Robert Taylor",
+      "review": "The class is easy, but not very stimulating. Good if you need an easy grade but don't expect much depth.",
+      "subject": "Art",
+      "stars": 3,
+      "teaching_style": "Hands-on",
+      "difficulty_level": "Easy",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. Jessica Lee",
+      "review": "Very organized and clear in her explanations. Her project-based approach makes learning feel practical and relevant.",
+      "subject": "Computer Science",
+      "stars": 5,
+      "teaching_style": "Project-based",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Prof. David Martinez",
+      "review": "Hard grader, but you'll learn a lot if you put in the effort. His expectations are high but fair.",
+      "subject": "Economics",
+      "stars": 4,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Difficult",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Dr. Kevin Chen",
+      "review": "Brilliant professor who connects theoretical concepts to industry applications. Office hours are always packed because he's so helpful.",
+      "subject": "Computer Science",
+      "stars": 5,
+      "teaching_style": "Project-based",
+      "difficulty_level": "Difficult",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Prof. Angela Brooks",
+      "review": "She has a gift for making statistics approachable. Uses lots of real data examples. Highly recommended for anyone scared of math.",
+      "subject": "Statistics",
+      "stars": 5,
+      "teaching_style": "Hands-on",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. Marcus Thompson",
+      "review": "Incredibly disorganized. Lectures go off-topic constantly and grading is inconsistent. Would not recommend.",
+      "subject": "Psychology",
+      "stars": 1,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Easy",
+      "availability": "Limited"
+    },
+    {
+      "professor": "Prof. Nina Patel",
+      "review": "One of the most inspiring professors I've had. Her passion for neuroscience is infectious and she genuinely invests in students.",
+      "subject": "Neuroscience",
+      "stars": 5,
+      "teaching_style": "Discussion-oriented",
+      "difficulty_level": "Difficult",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. Carlos Reyes",
+      "review": "Fair grader and very approachable. His hands-on labs make organic chemistry much more understandable than just lectures alone.",
+      "subject": "Chemistry",
+      "stars": 4,
+      "teaching_style": "Hands-on",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Prof. Olivia Grant",
+      "review": "Lectures are well-structured but she moves too fast. Good professor if you keep up with readings.",
+      "subject": "Political Science",
+      "stars": 3,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Moderate",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Dr. Henry Park",
+      "review": "Outstanding professor. Breaks down complex algorithms with incredible clarity. His coding assignments are tough but genuinely useful.",
+      "subject": "Computer Science",
+      "stars": 5,
+      "teaching_style": "Project-based",
+      "difficulty_level": "Difficult",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Prof. Rachel Kim",
+      "review": "Very friendly and always willing to help. The course content is interesting but the workload is lighter than expected.",
+      "subject": "Sociology",
+      "stars": 4,
+      "teaching_style": "Discussion-oriented",
+      "difficulty_level": "Easy",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. Thomas Hughes",
+      "review": "Extremely knowledgeable but not great at explaining things. His research background is impressive but teaching style needs work.",
+      "subject": "Physics",
+      "stars": 2,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Difficult",
+      "availability": "Limited"
+    },
+    {
+      "professor": "Prof. Samantha Cruz",
+      "review": "Wonderful professor. She incorporates art history into current events which makes the content feel alive and relevant.",
+      "subject": "Art History",
+      "stars": 5,
+      "teaching_style": "Discussion-oriented",
+      "difficulty_level": "Easy",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. William Foster",
+      "review": "Decent professor overall. His macroeconomics course is challenging but he provides good study materials.",
+      "subject": "Economics",
+      "stars": 3,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Moderate",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Prof. Diana Walsh",
+      "review": "Best writing professor I've had. She gives detailed feedback on every assignment and genuinely helps you improve as a writer.",
+      "subject": "English",
+      "stars": 5,
+      "teaching_style": "Hands-on",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. Ivan Sokolov",
+      "review": "Very smart but his accent makes it hard to follow. Slides are useful but lectures can be confusing without prior background.",
+      "subject": "Mathematics",
+      "stars": 2,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Difficult",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Prof. Mei Zhang",
+      "review": "Incredibly supportive and encouraging. Her hands-on approach to molecular biology made difficult concepts click instantly.",
+      "subject": "Biology",
+      "stars": 5,
+      "teaching_style": "Hands-on",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. Patrick O'Brien",
+      "review": "He's the kind of professor who actually changes how you see the world. Philosophy class was genuinely life-changing.",
+      "subject": "Philosophy",
+      "stars": 5,
+      "teaching_style": "Discussion-oriented",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Prof. Tanya Okafor",
+      "review": "Very knowledgeable about African history. Her lectures are engaging but she can be strict about attendance and deadlines.",
+      "subject": "History",
+      "stars": 4,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Moderate",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Dr. Andrew Nakamura",
+      "review": "Makes machine learning concepts very accessible. His project assignments reflect real industry work and build a strong portfolio.",
+      "subject": "Computer Science",
+      "stars": 5,
+      "teaching_style": "Project-based",
+      "difficulty_level": "Difficult",
+      "availability": "Available"
+    },
+    {
+      "professor": "Prof. Grace Hoffman",
+      "review": "Easy class with minimal effort required. If you want depth, look elsewhere. Good for fulfilling a general requirement.",
+      "subject": "Sociology",
+      "stars": 3,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Easy",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. Luis Ramirez",
+      "review": "Passionate about environmental science and it shows. His field trips are unforgettable and grading is very fair.",
+      "subject": "Environmental Science",
+      "stars": 4,
+      "teaching_style": "Hands-on",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Prof. Elena Vasquez",
+      "review": "Her Spanish literature course opened my eyes to Latin American culture. Very passionate and creates a warm classroom atmosphere.",
+      "subject": "Literature",
+      "stars": 5,
+      "teaching_style": "Discussion-oriented",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. George Fletcher",
+      "review": "Terrible communication skills and barely available during office hours. Tests don't match what was taught in class at all.",
+      "subject": "Economics",
+      "stars": 1,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Difficult",
+      "availability": "Limited"
+    },
+    {
+      "professor": "Prof. Isabella Romano",
+      "review": "Her enthusiasm for music theory is contagious. She blends classical and modern examples beautifully and is very patient with beginners.",
+      "subject": "Music",
+      "stars": 5,
+      "teaching_style": "Hands-on",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Dr. Nathan Cooper",
+      "review": "Good professor for intro psychology. Lectures are clear but gets repetitive by mid-semester. Extra credit opportunities are helpful.",
+      "subject": "Psychology",
+      "stars": 3,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Easy",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Prof. Priya Sharma",
+      "review": "One of the most dedicated professors in the department. Her data science course is challenging but completely worth the effort.",
+      "subject": "Statistics",
+      "stars": 5,
+      "teaching_style": "Project-based",
+      "difficulty_level": "Difficult",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Dr. Oliver Bennett",
+      "review": "A mixed bag. Some lectures are fascinating, others feel rushed. Much better in small seminar settings than large lectures.",
+      "subject": "Political Science",
+      "stars": 3,
+      "teaching_style": "Discussion-oriented",
+      "difficulty_level": "Moderate",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Prof. Yuki Tanaka",
+      "review": "Exceptional professor. Her quantum physics lectures are among the most well-organized I've experienced. Difficult but deeply rewarding.",
+      "subject": "Physics",
+      "stars": 5,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Difficult",
+      "availability": "Somewhat Available"
+    },
+    {
+      "professor": "Dr. Monica Green",
+      "review": "Great studio instructor. Pushes you creatively without being harsh. Always gives thoughtful and constructive critique during reviews.",
+      "subject": "Art",
+      "stars": 4,
+      "teaching_style": "Hands-on",
+      "difficulty_level": "Moderate",
+      "availability": "Available"
+    },
+    {
+      "professor": "Prof. Derek Stone",
+      "review": "Boring delivery and reads directly from slides. Not engaging at all. Assignments are fair but class itself is a drag.",
+      "subject": "History",
+      "stars": 2,
+      "teaching_style": "Lecture-based",
+      "difficulty_level": "Easy",
+      "availability": "Limited"
+    },
+    {
+      "professor": "Dr. Fatima Al-Hassan",
+      "review": "Brilliant and inspiring. Her biomedical engineering course is rigorous but she scaffolds learning beautifully. A true mentor.",
+      "subject": "Engineering",
+      "stars": 5,
+      "teaching_style": "Project-based",
+      "difficulty_level": "Difficult",
+      "availability": "Available"
+    },
+    {
+      "professor": "Prof. Chris Nguyen",
+      "review": "Super approachable and easy to talk to. His intro to programming course is perfect for beginners. Very patient with students.",
+      "subject": "Computer Science",
+      "stars": 4,
+      "teaching_style": "Hands-on",
+      "difficulty_level": "Easy",
+      "availability": "Available"
+    }
+  ]
+}

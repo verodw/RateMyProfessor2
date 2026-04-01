@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pinecone
+sentence-transformers
+langchain
+langchain-core
+langchain-groq
+python-dotenv
+nltk
+numpy
+redis
