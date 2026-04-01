@@ -172,7 +172,7 @@ function ProfCard({ prof, isSelected, onCompare, compareCount }: {
         color: C.textMuted, fontSize: "0.75rem", mt: 1.5, fontStyle: "italic",
         display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", lineHeight: 1.5,
       }}>
-        "{prof.review}"
+        &quot;{prof.review}&quot;
       </Typography>
     </Box>
   );
